@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@+id/flip"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:flipInterval="100"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/krText"
+            android:textColor="@color/white"
+            android:textSize="70dp"
+            android:text="Ready"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/inputText"
+            android:layout_margin="5dp"
+            android:textColor="@color/cs1"
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:shadowColor="@color/cs2"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:textColor="@color/cs4"
+            android:textSize="75dp"
+            android:textStyle="bold"
+            />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn0"
+            style="@style/CustomBtn"
+            />
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn1"
+            style="@style/CustomBtn"
+           />
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn2"
+            style="@style/CustomBtn"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn3"
+            style="@style/CustomBtn"
+            />
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn4"
+            style="@style/CustomBtn"
+            />
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn5"
+            style="@style/CustomBtn"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn6"
+            style="@style/CustomBtn"
+            />
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn7"
+            style="@style/CustomBtn"
+            />
+        <Button
+            android:onClick="btnClick"
+            android:id="@+id/btn8"
+            style="@style/CustomBtn"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</ViewFlipper>

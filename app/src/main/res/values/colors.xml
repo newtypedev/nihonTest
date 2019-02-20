@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#ffffe7</color>
+    <color name="gray">#464646</color>
+    <color name="spark_primary_color">#FFFFC107</color>
+    <color name="spark_secondary_color">#FFFF5722</color>
+    <color name="spark_image_tint">#00000000</color>
+    <color name="cs1">#FEAF16</color>
+    <color name="cs2">#00FEFE</color>
+    <color name="cs3">#FBE7C3</color>
+    <color name="cs4">#5EB4D2</color>
+    <color name="red">#FFFF0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="cs6">#553F51B5</color>
+</resources>
